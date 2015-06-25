@@ -30,3 +30,4 @@
 * Decided Ben Balter's Word Diff solution is too complicated.
 * Wrote temporary .bat file that manually converts .docx to .md with Pandoc.
 * Removed pandoc from .gitconfig
+* Successfully committed and synced with GitHub, cloned to Ubuntu VM, committed again and updated Windows local.
