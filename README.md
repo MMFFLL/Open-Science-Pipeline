@@ -1,5 +1,11 @@
-# 25-06-2015
-## Building a skeleton
+# Goal
+
+Develop a platform independent and disciplined cradle-to-the-grave
+method for efficiently producing fully open, reproducible, and
+collaborative scientific works.
+
+## 25-06-2015
+### Building a skeleton
 * Install Git and GitHub for Windows.
 ⋅⋅* [Setting up GitHub](https://help.github.com/articles/set-up-git/)
 * Set up Personal Open Science Project repository.
@@ -31,3 +37,4 @@
 * Wrote temporary .bat file that manually converts .docx to .md with Pandoc.
 * Removed pandoc from .gitconfig
 * Successfully committed and synced with GitHub, cloned to Ubuntu VM, committed again and updated Windows local.
+* Merged log and goals into README.md, renamed Development Proposals to PROPOSALS.
