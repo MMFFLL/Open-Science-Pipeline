@@ -1,0 +1,15 @@
+# 25-06-2015
+* Install Git and GitHub for Windows. https://help.github.com/articles/set-up-git/
+* Set up Personal Open Science Project repository.
+* Install Pandoc. http://pandoc.org/
+* Added pandoc to .gitconfig: 
+	[diff "pandoc"]
+		textconv=pandoc --to=markdown
+		prompt = false
+	[alias]
+		wdiff = diff --word-diff=color --unified=1
+* Set project .gitattributes to use diff=pandoc
+* Converted Goals.docx to Markdown.
+	pandoc -s Goals.docx -t markdown -o Goals.md
+* Converted Development Proposals.docx to Markdown.
+	pandoc -s "Development Proposals.docx" -t markdown -o "Development Proposals.md"
