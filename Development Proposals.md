@@ -1,12 +1,6 @@
 **How can we use GitHub to collaborate on a project document authored in
 Word?**
 
-*Articles*
-
-<http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/>
-
-<http://ben.balter.com/2015/02/06/word-diff/>
-
 *Solutions*
 
 1.  Version control raw Markdown format project file, convert to Word or
@@ -16,7 +10,7 @@ Word?**
     a.  Pandoc is maintained and widely supported.
 
     b.  Dependency Rakali is failing and not maintained.
-        http://blog.martinfenner.org/2014/08/18/introducing-rakali/
+        <http://blog.martinfenner.org/2014/08/18/introducing-rakali/>
 
 2.  Author master documents in Word/docx, convert to Markdown with
     Word Diff. <http://ben.balter.com/2015/02/06/word-diff/>

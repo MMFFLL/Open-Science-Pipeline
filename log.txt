@@ -1,5 +1,4 @@
 # 25-06-2015
-## 1
 * Install Git and GitHub for Windows. https://help.github.com/articles/set-up-git/
 * Set up Personal Open Science Project repository.
 * Install Pandoc. http://pandoc.org/
@@ -17,3 +16,5 @@
 * Committed to GitHub. 
 	"Error: Could not generate diff for file."
 	Pandoc diff is not working for GitHub GUI.
+* Decided Ben Balter's Word Diff solution is too complicated.
+* Wrote temporary .bat file that manually converts .docx to .md with Pandoc.
