@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="section">25-06-2015</h1>
+<h2 id="building-a-skeleton">Building a skeleton</h2>
+<ul>
+<li>Install Git and GitHub for Windows. ⋅⋅* <a href="https://help.github.com/articles/set-up-git/">Setting up GitHub</a></li>
+<li>Set up Personal Open Science Project repository.</li>
+<li>Install Pandoc. ⋅⋅* <a href="http://pandoc.org/">Pandoc</a>.</li>
+<li><p>Added pandoc to .gitconfig.</p>
+<pre class="git"><code>[diff &quot;pandoc&quot;]
+textconv=pandoc --to=markdown
+prompt = false
+[alias]
+wdiff = diff --word-diff=color --unified=1</code></pre></li>
+<li>Set project .gitattributes to use diff=pandoc</li>
+<li><p>Converted Goals.docx to Markdown.</p>
+<pre class="pandoc"><code>pandoc -s Goals.docx -t markdown -o Goals.md</code></pre></li>
+<li><p>Converted Development Proposals.docx to Markdown.</p>
+<pre class="pandoc"><code>pandoc -s &quot;Development Proposals.docx&quot; -t markdown -o &quot;Development Proposals.md&quot;</code></pre></li>
+<li><p>Committed to GitHub. ⋅⋅* Pandoc diff is not working for GitHub GUI.</p>
+<pre class="git"><code>Error: Could not generate diff for file.</code></pre></li>
+<li>Decided Ben Balter's Word Diff solution is too complicated.</li>
+<li>Wrote temporary .bat file that manually converts .docx to .md with Pandoc.</li>
+<li><p>Removed pandoc from .gitconfig</p></li>
+</ul>
+</body>
+</html>
