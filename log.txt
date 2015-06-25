@@ -1,4 +1,5 @@
 # 25-06-2015
+## 1
 * Install Git and GitHub for Windows. https://help.github.com/articles/set-up-git/
 * Set up Personal Open Science Project repository.
 * Install Pandoc. http://pandoc.org/
@@ -13,3 +14,6 @@
 	pandoc -s Goals.docx -t markdown -o Goals.md
 * Converted Development Proposals.docx to Markdown.
 	pandoc -s "Development Proposals.docx" -t markdown -o "Development Proposals.md"
+* Committed to GitHub. 
+	"Error: Could not generate diff for file."
+	Pandoc diff is not working for GitHub GUI.
