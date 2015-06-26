@@ -53,3 +53,14 @@ Word?**
 -   Open Kanban <https://github.com/agilelion/Open-Kanban>
 
 -   Kanboard <http://kanboard.net/>
+
+**How can we generate APA style LaTeX documents?**
+
+*Qualities*
+
+-   Structured
+-   Command line
+-   Lightweight
+
+**How can we manage bibliographic information?**
+No text.
