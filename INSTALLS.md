@@ -15,7 +15,9 @@ sudo gedit /etc/openvpn/auth
 
 ## TeX
 ```bash
-sudo apt-get install texlive-full biber
+[Manual download TexLive net installer (https://www.tug.org/texlive/quickinstall.html)]
+sudo apt-get install perl-tk
+/home/zodium/Downloads/install-tl-20150625/install-tl -gui wizard --location ftp.fu-berlin.de/ctan/path/systems/texlive/tlnet
 ```
 
 ## Git
@@ -37,9 +39,13 @@ cd ~/Personal-Open-Science-Pipeline/
 git remote -v
 git remote set-url origin git@github.com:zodium/Personal-Open-Science-Pipeline.git
 git remote add upstream git@github.com:zodium/Personal-Open-Science-Pipeline.git
+git remote -v
 git add .
 git commit  -m “Loki-Loki test.”
 git push
+git fetch
+git status
+git pull
 ```
 
 ## R
