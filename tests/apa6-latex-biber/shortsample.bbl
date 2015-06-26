@@ -1,0 +1,68 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Lassen2006}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4f8b5bfa1f98a5350cc87b1c1d8d1d7c}{Lassen}{L\bibinitperiod}{Stephen\bibnamedelima R.}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1256890595199d991c0c0ead594d7925}{Steele}{S\bibinitperiod}{Michael\bibnamedelima M.}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=359a93b7c3e76123ae0e97ce57a119a3}{Sailor}{S\bibinitperiod}{Wayne}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{15d3ff86b0b7f3a0df7a9bd57b2f8d9c}
+      \strng{fullhash}{4f64decd2b9b645c31004613c94e2293}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychology in the Schools}
+      \field{number}{6}
+      \field{title}{The relationship of school-wide positive behavior support to academic achievement in an urban middle school}
+      \field{volume}{43}
+      \field{year}{2006}
+      \field{pages}{701\bibrangedash 712}
+      \range{pages}{12}
+    \endentry
+    \entry{Shotton1989}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0b111310f6dc8f51ce74072fd576c6a5}{Shotton}{S\bibinitperiod}{Margaret\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {London, England}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{0b111310f6dc8f51ce74072fd576c6a5}
+      \strng{fullhash}{0b111310f6dc8f51ce74072fd576c6a5}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1989}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Computer addiction? {A} study of computer dependency}
+      \field{year}{1989}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

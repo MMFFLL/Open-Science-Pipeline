@@ -63,4 +63,4 @@ Word?**
 -   Lightweight.
 
 **How can we manage bibliographic information?**
-No text.
+Bibtext, Biblatex or Biber?

@@ -1,0 +1,89 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{Lassen2006}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4f8b5bfa1f98a5350cc87b1c1d8d1d7c}{Lassen}{L\bibinitperiod}{Stephen\bibnamedelima R.}{S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1256890595199d991c0c0ead594d7925}{Steele}{S\bibinitperiod}{Michael\bibnamedelima M.}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=359a93b7c3e76123ae0e97ce57a119a3}{Sailor}{S\bibinitperiod}{Wayne}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{15d3ff86b0b7f3a0df7a9bd57b2f8d9c}
+      \strng{fullhash}{4f64decd2b9b645c31004613c94e2293}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychology in the Schools}
+      \field{number}{6}
+      \field{title}{The relationship of school-wide positive behavior support to academic achievement in an urban middle school}
+      \field{volume}{43}
+      \field{year}{2006}
+      \field{pages}{701\bibrangedash 712}
+      \range{pages}{12}
+    \endentry
+    \entry{Shotton1989}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0b111310f6dc8f51ce74072fd576c6a5}{Shotton}{S\bibinitperiod}{Margaret\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {London, England}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{0b111310f6dc8f51ce74072fd576c6a5}
+      \strng{fullhash}{0b111310f6dc8f51ce74072fd576c6a5}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1989}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Computer addiction? {A} study of computer dependency}
+      \field{year}{1989}
+    \endentry
+    \entry{vonDavier2011}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=a2c0207b2dc3a8a8dbe945cb66ce9909}{Davier}{D\bibinitperiod}{Matthias}{M\bibinitperiod}{von}{v\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=2cc81e4f038d69d1f4ad525eb2209079}{Xu}{X\bibinitperiod}{Xueli}{X\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d5896d5d762924e30e899afe254d85e8}{Carstensen}{C\bibinitperiod}{Claus\bibnamedelima H.}{C\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a3871bd35b2ffad51444c9e74d37d89d}
+      \strng{fullhash}{3872922e5cb451015a7d63e3cf57993b}
+      \field{sortinit}{v}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychometrika}
+      \field{title}{Measuring growth in a longitudinal large-scale assessment with a general latent variable model}
+      \field{volume}{76}
+      \field{year}{2011}
+      \field{pages}{318\bibrangedash 336}
+      \range{pages}{19}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
