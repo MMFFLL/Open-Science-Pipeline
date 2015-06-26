@@ -1,15 +1,15 @@
 [0] Config.pm:324> INFO - This is Biber 2.1
-[1] Config.pm:327> INFO - Logfile is 'shortsample.blg'
-[47] biber:276> INFO - === Fri Jun 26, 2015, 15:34:41
-[48] Biber.pm:333> INFO - Reading 'shortsample.bcf'
-[152] Biber.pm:645> INFO - Found 2 citekeys in bib section 0
-[172] Biber.pm:2977> INFO - Processing section 0
-[198] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[202] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[205] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography.bib'
-[256] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[258] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[259] Biber.pm:2854> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[259] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
-[263] bbl.pm:505> INFO - Writing 'shortsample.bbl' with encoding 'ascii'
-[265] bbl.pm:596> INFO - Output to shortsample.bbl
+[2] Config.pm:327> INFO - Logfile is 'shortsample.blg'
+[44] biber:276> INFO - === Fri Jun 26, 2015, 20:55:16
+[46] Biber.pm:333> INFO - Reading 'shortsample.bcf'
+[145] Biber.pm:645> INFO - Found 2 citekeys in bib section 0
+[169] Biber.pm:2977> INFO - Processing section 0
+[191] Biber.pm:3115> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[195] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[198] bibtex.pm:895> INFO - Found BibTeX data source 'bibliography.bib'
+[250] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[252] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[254] Biber.pm:2854> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[255] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[258] bbl.pm:505> INFO - Writing 'shortsample.bbl' with encoding 'ascii'
+[262] bbl.pm:596> INFO - Output to shortsample.bbl

@@ -1,22 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
 <p><strong>How can we use GitHub to collaborate on a project document authored in Word?</strong></p>
 <p><em>Solutions</em></p>
 <ol style="list-style-type: decimal">
 <li><p>Version control raw Markdown format project file, convert to Word or TeX for authoring or print purposes with Pandoc. <a href="http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/" class="uri">http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/</a></p>
-<ol style="list-style-type: lower-alpha">
+<ol style="list-style-type: decimal">
 <li><p>Pandoc is maintained and widely supported.</p></li>
 <li><p>Dependency Rakali is failing and not maintained. <a href="http://blog.martinfenner.org/2014/08/18/introducing-rakali/" class="uri">http://blog.martinfenner.org/2014/08/18/introducing-rakali/</a></p></li>
 </ol></li>
 <li><p>Author master documents in Word/docx, convert to Markdown with Word Diff. <a href="http://ben.balter.com/2015/02/06/word-diff/" class="uri">http://ben.balter.com/2015/02/06/word-diff/</a></p>
-<ol style="list-style-type: lower-alpha">
+<ol style="list-style-type: decimal">
 <li><p>Word Diff is maintained. <a href="https://github.com/benbalter/word_diff" class="uri">https://github.com/benbalter/word_diff</a></p></li>
 <li><p>Complicated setup is a negative. Really complicated, in fact, seems to require a Ruby development server.</p></li>
 </ol></li>
 <li><p>Author master documents in Word/docx, manually convert to Markdown with Pandoc, version control resulting .MD file.</p>
-<ol style="list-style-type: lower-alpha">
+<ol style="list-style-type: decimal">
 <li><p>pandoc -s &quot;Development Proposals.docx&quot; -t markdown -o &quot;Development Proposals.md&quot;</p></li>
 <li><p>Most doable solution.</p></li>
 <li><p>Not automatic.</p>
-<ol style="list-style-type: lower-roman">
+<ol style="list-style-type: decimal">
 <li><strong>Write a Python .docx &lt;-&gt; .md conversion for all version controlled files in dir.</strong></li>
 </ol></li>
 </ol></li>
@@ -42,4 +52,13 @@
 <li>Command line.</li>
 <li>Lightweight.</li>
 </ul>
-<p><strong>How can we manage bibliographic information?</strong> Bibtext, Biblatex or Biber?</p>
+<p><strong>How can we manage bibliographic information?</strong></p>
+<p>Bibtext, Biblatex or Biber?</p>
+<p><strong>How can we track changes to POSP?</strong></p>
+<p>https://github.com/olivierlacan/keep-a-changelog</p>
+<p><strong>How can we plan future changes to POSP?</strong></p>
+<p>Roadmap? Forward changelog?</p>
+<p><strong>What license should we use?</strong></p>
+<p>No idea.</p>
+</body>
+</html>

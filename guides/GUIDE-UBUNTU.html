@@ -1,27 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+</head>
+<body>
 <h1 id="basic-stack">Basic Stack</h1>
 <h2 id="system-network">System &amp; Network</h2>
 <p>Manually download and install <a href="https://encryptr.org">Encryptr</a>, and your VPN config files from your VPN provider.</p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">sudo</span> apt-get install openvpn
 <span class="kw">sudo</span> apt-get install network-manager-openvpn
 <span class="kw">sudo</span> gedit /etc/openvpn/auth</code></pre></div>
+</div>
 <p>Set the repository mirror to <code>http://eu-central-1.clouds.archive.ubuntu.com/ubuntu/</code>. See <a href="http://askubuntu.com/questions/37753/how-can-i-get-apt-to-use-a-mirror-close-to-me-or-choose-a-faster-mirror">this link</a>. Finally, connect the VPN and use the Ubuntu Software Updater, then restart the system.</p>
 <h2 id="tex">TeX</h2>
 <p>Manually download TexLive net installer, use the <a href="https://www.tug.org/texlive/quickinstall.html">Texlive Quick Install guide</a></p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">sudo</span> apt-get install perl-tk
 <span class="kw">sudo</span> /home/zodium/Downloads/install-tl-20150625/install-tl -gui wizard --location http://ftp.snt.utwente.nl/pub/software/tex/systems/texlive/tlnet</code></pre></div>
+</div>
 <p>Add directories to PATH.</p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">sudo</span> gedit ~/.profile</code></pre></div>
+</div>
 <pre><code>export PATH=/usr/local/texlive/2015/bin/x86_64-linux:$PATH
 export MANPATH=/usr/local/texlive/2015/texmf-dist/doc/man:$MANPATH
 export INFOPATH=/usr/local/texlive/2015/texmf-dist/doc/info:$INFOPATH</code></pre>
 <p>Add psudo bash alias to escape sudo behavior.</p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">sudo</span> gedit ~/.bashrc</code></pre></div>
+</div>
 <p><code>alias psudo='sudo env PATH=&quot;$PATH&quot;'</code></p>
 <p>Source changes.</p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">.</span> <span class="kw">~/.profile</span>
 <span class="kw">.</span> <span class="kw">~/.bashrc</span></code></pre></div>
+</div>
 <h2 id="git">Git</h2>
 <p>Git comes preinstalled on Ubuntu, but it's old. Update it and hook it up to GitHub.</p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">sudo</span> add-apt-repository ppa:git-core/ppa -y
 <span class="kw">sudo</span> apt-get update
 <span class="kw">sudo</span> apt-get install git
@@ -31,8 +89,10 @@ export INFOPATH=/usr/local/texlive/2015/texmf-dist/doc/info:$INFOPATH</code></pr
 <span class="kw">ssh-keygen</span> -t rsa -b 4096 -C <span class="st">&quot;zodium@gmail.com&quot;</span>
 <span class="kw">eval</span> <span class="st">&quot;</span><span class="ot">$(</span><span class="kw">ssh-agent</span> -s<span class="ot">)</span><span class="st">&quot;</span>
 <span class="kw">ssh-add</span> ~/.ssh/id_rsa</code></pre></div>
+</div>
 <h2 id="gibhub">GibHub</h2>
 <p>Take the key in id_rsa and manually upload it to GitHub via the web interface.</p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">gedit</span> ~/.ssh/id_rsa.pub
 <span class="kw">ssh</span> -T git@github.com
 <span class="kw">git</span> clone https:///github.com/zodium/Personal-Open-Science-Pipeline/
@@ -47,35 +107,54 @@ export INFOPATH=/usr/local/texlive/2015/texmf-dist/doc/info:$INFOPATH</code></pr
 <span class="kw">git</span> fetch
 <span class="kw">git</span> status
 <span class="kw">git</span> pull</code></pre></div>
+</div>
 <h2 id="r">R</h2>
 <p>Add <code>deb http://cran.uni-muenster.de/bin/linux/ubuntu trusty/</code> to <code>/etc/apt/sources.list</code> before installing R.</p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">sudo</span> gedit /etc/apt/sources.list
 <span class="kw">sudo</span> apt-get update
 <span class="kw">sudo</span> apt-get install r-base
 <span class="kw">sudo</span> apt-get install r-base-dev
 [<span class="kw">Manual</span> install R Studio]
 <span class="kw">rstudio</span> ~/Personal-Open-Science-Pipeline/ <span class="kw">&amp;</span> <span class="kw">disown</span></code></pre></div>
+</div>
 <h2 id="atom-and-pandoc">Atom and Pandoc</h2>
 <p>Manually install <a href="https://atom.io/">Atom</a> and <a href="https://pandoc.org/">Pandoc</a>.</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">atom</span> ~/Personal-Open-Science-Pipeline/ <span class="kw">&amp;</span> <span class="kw">disown</span></code></pre></div>
+<div class="sourceCode">
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">apm</span> install file-icons
+<span class="kw">apm</span> install autocomplete-plus
+<span class="kw">apm</span> install language-latex
+<span class="kw">apm</span> install latexer
+<span class="kw">atom</span> ~/Personal-Open-Science-Pipeline/ <span class="kw">&amp;</span> <span class="kw">disown</span></code></pre></div>
+</div>
 <h1 id="generating-and-sharing-apa-6th-ed.-pdfs">Generating and sharing APA 6th Ed. PDFs</h1>
 <p>Download the <a href="https://www.ctan.org/pkg/apa6">apa6 package</a> from CTAN. Extract the samples folder to a Git repo, then navigate there.</p>
 <p><code>cd ~\Personal-Open-Science-Pipeline\tests\apa6-latex-biber\</code></p>
 <p>Produce APA6 PDF from <code>shortsample.tex</code></p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">pdflatex</span> shortsample
 <span class="kw">biber</span> shortsample
 <span class="kw">pdflatex</span> shortsample</code></pre></div>
+</div>
 <p>Produce APA6 PDF from <code>longsample.tex</code></p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">pdflatex</span> longsample
 <span class="kw">biber</span> longsample
 <span class="kw">pdflatex</span> longsample</code></pre></div>
+</div>
 <p>Return to POSP and allow gen_from-md.sh to execute, then run.</p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">cd</span> ~/Personal-Open-Science-Pipeline/
 <span class="kw">chmod</span> +x ~/Personal-Open-Science-Pipeline/gen_from-md.sh
 <span class="kw">chmod</span> +x ~/Personal-Open-Science-Pipeline/gen_to-md.sh
 <span class="kw">./gen_from-md.sh</span></code></pre></div>
+</div>
 <p>Check, commit and push changes to GitHub.</p>
+<div class="sourceCode">
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> status
 <span class="kw">git</span> add .
 <span class="kw">git</span> commit -m <span class="st">&quot;Building environment.&quot;</span>
 <span class="kw">git</span> push</code></pre></div>
+</div>
+</body>
+</html>
