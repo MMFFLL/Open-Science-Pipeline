@@ -9,56 +9,72 @@
 </head>
 <body>
 <p><strong>How can we use GitHub to collaborate on a project document authored in Word?</strong></p>
-<p><em>Solutions</em></p>
 <ol style="list-style-type: decimal">
-<li><p>Version control raw Markdown format project file, convert to Word or TeX for authoring or print purposes with Pandoc. <a href="http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/" class="uri">http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/</a></p>
+<li>Version control raw Markdown format project file, convert to Word or TeX for authoring or print purposes with Pandoc. <a href="http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/" class="uri">http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/</a>
 <ol style="list-style-type: decimal">
-<li><p>Pandoc is maintained and widely supported.</p></li>
-<li><p>Dependency Rakali is failing and not maintained. <a href="http://blog.martinfenner.org/2014/08/18/introducing-rakali/" class="uri">http://blog.martinfenner.org/2014/08/18/introducing-rakali/</a></p></li>
+<li>Pandoc is maintained and widely supported.</li>
+<li>Dependency Rakali is failing and not maintained. <a href="http://blog.martinfenner.org/2014/08/18/introducing-rakali/" class="uri">http://blog.martinfenner.org/2014/08/18/introducing-rakali/</a></li>
 </ol></li>
-<li><p>Author master documents in Word/docx, convert to Markdown with Word Diff. <a href="http://ben.balter.com/2015/02/06/word-diff/" class="uri">http://ben.balter.com/2015/02/06/word-diff/</a></p>
+<li>Author master documents in Word/docx, convert to Markdown with Word Diff. <a href="http://ben.balter.com/2015/02/06/word-diff/" class="uri">http://ben.balter.com/2015/02/06/word-diff/</a>
 <ol style="list-style-type: decimal">
-<li><p>Word Diff is maintained. <a href="https://github.com/benbalter/word_diff" class="uri">https://github.com/benbalter/word_diff</a></p></li>
-<li><p>Complicated setup is a negative. Really complicated, in fact, seems to require a Ruby development server.</p></li>
+<li>Word Diff is maintained. <a href="https://github.com/benbalter/word_diff" class="uri">https://github.com/benbalter/word_diff</a></li>
+<li>Complicated setup is a negative. Really complicated, in fact, seems to require a Ruby development server.</li>
 </ol></li>
-<li><p>Author master documents in Word/docx, manually convert to Markdown with Pandoc, version control resulting .MD file.</p>
+<li>Author master documents in Word/docx, manually convert to Markdown with Pandoc, version control resulting .MD file.
 <ol style="list-style-type: decimal">
-<li><p>pandoc -s &quot;Development Proposals.docx&quot; -t markdown -o &quot;Development Proposals.md&quot;</p></li>
-<li><p>Most doable solution.</p></li>
-<li><p>Not automatic.</p>
+<li>pandoc -s &quot;Development Proposals.docx&quot; -t markdown -o &quot;Development Proposals.md&quot;</li>
+<li>Most doable solution.</li>
+<li>Not automatic.
 <ol style="list-style-type: decimal">
 <li><strong>Write a Python .docx &lt;-&gt; .md conversion for all version controlled files in dir.</strong></li>
 </ol></li>
 </ol></li>
 </ol>
-<p><strong>How can we include logs in a project?</strong></p>
-<p><em>Solutions</em></p>
+<p><strong>How can we extract citations from approx. APA-formatted docx papers and convert them into Biblatex style?</strong></p>
 <ul>
-<li><p>IRC -&gt; GitHub</p></li>
-<li><p>Gitter.im</p></li>
-<li><p>TXT changelog/journal.</p></li>
+<li>Should conform to <a href="http://texdoc.net/texmf-dist/doc/latex/biblatex-apa/biblatex-apa.pdf">APA6 BibLatex specs</a>.</li>
+<li>Use pandoc and regular expressions to split docx source into Markdown-formatted:</li>
+<li>Title (p. 1).</li>
+<li>Body (p. 2 to References/Bibliography).</li>
+<li>References (References to first appendix)</li>
+<li>Appendix (First appendix to end)</li>
+<li>DOCX to Markdown via pandoc seems to produce odd formatting in the references, like spontaneous headers.</li>
+<li>How to extract human error? Many DOCX to Markdown decompositions seem to end up with articles (notice journal italics): Buss, D. M., &amp; Schackelford, T. K. (2008). Attractive women want it all: Good genes, economic investment, parenting proclivities, and emotional commitment. <em>Evolutionary Psychology, 6</em>(1), 134-146.</li>
+<li>Headings are just bolded in most .docx authored files.</li>
+</ul>
+<p><strong>How can we track changes to POSP?</strong></p>
+<ul>
+<li><a href="https://github.com/olivierlacan/keep-a-changelog">Change log</a>.</li>
+<li>Roadmap.</li>
+<li>IRC -&gt; GitHub</li>
 </ul>
 <p><strong>How can productivity tracking be incorporated?</strong></p>
-<p><em>Services</em></p>
 <ul>
-<li><p>Kanbanflow</p></li>
-<li><p>Open Kanban <a href="https://github.com/agilelion/Open-Kanban" class="uri">https://github.com/agilelion/Open-Kanban</a></p></li>
-<li><p>Kanboard <a href="http://kanboard.net/" class="uri">http://kanboard.net/</a></p></li>
+<li>Kanbanflow (Not open)</li>
+<li><a href="https://github.com/agilelion/Open-Kanban">OpenKanban</a> (Not maintained)</li>
+<li><a href="http://kanboard.net/">Kanboard</a></li>
+<li>(LibreBoard)[https://github.com/libreboard/libreboard]</li>
 </ul>
-<p><strong>How can we generate APA style LaTeX documents?</strong></p>
-<p><em>Qualities</em></p>
+<p><strong>How can we generate APA6 style LaTeX documents?</strong></p>
 <ul>
-<li>Structured.</li>
-<li>Command line.</li>
-<li>Lightweight.</li>
+<li>Structured, command line, lightweight, Win/Mac/Linux GUI.</li>
+<li>TexLive, apa6.</li>
+<li>TexStudio.</li>
 </ul>
-<p><strong>How can we manage bibliographic information?</strong></p>
-<p>Bibtext, Biblatex or Biber?</p>
-<p><strong>How can we track changes to POSP?</strong></p>
-<p>https://github.com/olivierlacan/keep-a-changelog</p>
+<p><strong>How can we manage bibliographic information in APA6 style LaTeX documents?</strong></p>
+<ul>
+<li>BibTeX, BibLaTeX and/or Biber?</li>
+<li>BibLaTeX + Biber.</li>
+</ul>
 <p><strong>How can we plan future changes to POSP?</strong></p>
-<p>Roadmap? Forward changelog?</p>
+<ul>
+<li>Roadmap.</li>
+<li>Forward changelog.</li>
+<li>Kanban.</li>
+</ul>
 <p><strong>What license should we use?</strong></p>
-<p>No idea.</p>
+<ul>
+<li>https://creativecommons.org/licenses/by/3.0/</li>
+</ul>
 </body>
 </html>

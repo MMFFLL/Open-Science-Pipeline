@@ -50,7 +50,7 @@ Word?**
 * Kanbanflow (Not open)
 * [OpenKanban](https://github.com/agilelion/Open-Kanban) (Not maintained)
 * [Kanboard](http://kanboard.net/)
-* (LibreBoard)[https://github.com/libreboard/libreboard]
+* (LibreBoard)[https://github.com/libreboard/libreboard].
 
 
 **How can we generate APA6 style LaTeX documents?**
@@ -58,6 +58,7 @@ Word?**
 * Structured, command line, lightweight, Win/Mac/Linux GUI.
 *   TexLive, apa6.
 *   TexStudio.
+
 
 **How can we manage bibliographic information in APA6 style LaTeX documents?**
 
@@ -70,6 +71,7 @@ Word?**
 * Roadmap.
 * Forward changelog.
 * Kanban.
+
 
 **What license should we use?**
 
