@@ -38,7 +38,7 @@ Word?**
     Buss, D. M., & Schackelford, T. K. (2008). Attractive women want it all: Good genes, economic investment, parenting proclivities, and emotional commitment. *Evolutionary Psychology, 6*(1), 134-146.
 * Headings are just bolded in most .docx authored files.
 
-**How can we track changes to POSP?**
+**How can we track changes to OSP?**
 
 * [Change log](https://github.com/olivierlacan/keep-a-changelog).
 * Roadmap.
@@ -66,7 +66,7 @@ Word?**
 *   BibLaTeX + Biber.
 
 
-**How can we plan future changes to POSP?**
+**How can we plan future changes to OSP?**
 
 * Roadmap.
 * Forward changelog.

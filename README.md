@@ -1,6 +1,6 @@
-# Personal Open Science Pipeline
+# Open Science Pipeline
 ## Description
-POSP aims to develop a modular, portable method for every step involved in producing open, reproducible, and
+OSP aims to develop a modular, portable method for every step involved in producing open, reproducible, and
 collaborative scientific works.
 
 ## Installation
