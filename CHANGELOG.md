@@ -1,4 +1,4 @@
-# Change Log
+# Change log
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
@@ -6,7 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Basic `md` <-> `html` <-> `docx` <-> `pdf` conversion via `bash` and `pandoc`.
 - Text editing via Atom.
-- APA formatting and PDF compiling via `LiveTeX`, `apa6`, `biblatex` and `biber`. (Ubuntu)
+- APA formatting and PDF compiling via `TexLive`, `apa6`, `biblatex` and `biber`. (Ubuntu)
 - Version control with `Git` and [GitHub](https://github.com).
 - [Ubuntu 14.0.4 LTS quickstart guide](/guides/GUIDE-UBUNTU.html).
 

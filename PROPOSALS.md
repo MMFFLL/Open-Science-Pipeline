@@ -38,7 +38,7 @@ Word?**
     Buss, D. M., & Schackelford, T. K. (2008). Attractive women want it all: Good genes, economic investment, parenting proclivities, and emotional commitment. *Evolutionary Psychology, 6*(1), 134-146.
 * Headings are just bolded in most .docx authored files.
 
-**How can we track changes to POSP?**
+**How can we track changes to OSP?**
 
 * [Change log](https://github.com/olivierlacan/keep-a-changelog).
 * Roadmap.
@@ -50,7 +50,7 @@ Word?**
 * Kanbanflow (Not open)
 * [OpenKanban](https://github.com/agilelion/Open-Kanban) (Not maintained)
 * [Kanboard](http://kanboard.net/)
-* (LibreBoard)[https://github.com/libreboard/libreboard]
+* (LibreBoard)[https://github.com/libreboard/libreboard].
 
 
 **How can we generate APA6 style LaTeX documents?**
@@ -59,17 +59,19 @@ Word?**
 *   TexLive, apa6.
 *   TexStudio.
 
+
 **How can we manage bibliographic information in APA6 style LaTeX documents?**
 
 * BibTeX, BibLaTeX and/or Biber?
 *   BibLaTeX + Biber.
 
 
-**How can we plan future changes to POSP?**
+**How can we plan future changes to OSP?**
 
 * Roadmap.
 * Forward changelog.
 * Kanban.
+
 
 **What license should we use?**
 
